@@ -6,28 +6,22 @@
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
-    "userInterfaceStyle": "dark",
-    "newArchEnabled": true,
+    "userInterfaceStyle": "light",
     "ios": {
       "supportsTablet": true,
       "infoPlist": {
-        "NSLocationWhenInUseUsageDescription": "Este aplicativo precisa de acesso à sua localização em tempo real para o radar de proximidade do jogo."
+        "NSLocationWhenInUseUsageDescription": "Este aplicativo precisa de acesso à sua localização em tempo real."
       }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#121212"
+        "backgroundColor": "#FFFFFF"
       },
       "permissions": [
         "ACCESS_COARSE_LOCATION",
         "ACCESS_FINE_LOCATION"
       ]
-    },
-    "web": {
-      "bundler": "metro",
-      "output": "static",
-      "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
       "expo-router",
